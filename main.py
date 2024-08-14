@@ -52,7 +52,7 @@ except Exception as e:
         raise e
 
 
-STAGE_NAME = "Model evaluation Stage"
+STAGE_NAME = "Model Evaluation Stage"
 try:
    logger.info(f">>>>>> {STAGE_NAME} started <<<<<<") 
    data_ingestion = ModelEvaluationTrainingPipeline()
