@@ -1,7 +1,7 @@
-from MushroomProject.constants import *
-from MushroomProject.utils.common import read_yaml, create_directories
+from MushroomClassification.constants import *
+from MushroomClassification.utils.common import read_yaml, create_directories
 
-from MushroomProject.entity.config_entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig,ModelEvaluationConfig)
+from MushroomClassification.entity.config_entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig,ModelEvaluationConfig)
 
 
 class ConfigurationManager:
